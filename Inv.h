@@ -8,7 +8,10 @@ namespace Inv{
             int pin1;
         public:
             Mo() {}
-            Mo(int pin1_, int pin2_):pin2(pin2_),pin1(pin1_){};
+            Mo(int pin1_, int pin2_):pin2(pin2_),pin1(pin1_){
+		        pinMode(pin1,OUTPUT);
+		        pinMode(pin2,OUTPUT);
+            }
             void run(int speed);
 };
     class Omni4{
