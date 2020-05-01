@@ -1,4 +1,4 @@
-#include"inverse_kinematics.h"
+#include"Inv.h"
 #include<Arduino.h>
 namespace Inv{
     void Mo::run(int speed){
