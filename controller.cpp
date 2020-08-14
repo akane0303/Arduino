@@ -1,5 +1,6 @@
 #include"controller.h"
 #include<Arduino.h>
+//#define DEBUG // Srial.printを有効にする時
 
 Btd btd;
 double theta(double x_,double y_){
