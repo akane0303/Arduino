@@ -1,2 +1,2 @@
 # controller.h
-stm32F303K8とdualshock3 通信用
+stm32 nucleoシリーズとdualshock3 通信用
