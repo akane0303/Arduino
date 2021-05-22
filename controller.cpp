@@ -4,11 +4,6 @@
 //#define DEBUG // Srial.printを有効にする時
 
 Btd btd;
-Motor mo0(PB4, PB10);
-Motor mo1(PB3, PB5);
-Motor mo2(PC7, PB6);
-Motor mo3(PB9, PB8);
-Omni omni(170, mo0, mo1, mo2, mo3);
 double theta(double x_, double y_) {
   float rad = atan2(y_, x_);
   float deg = rad / PI * 180;
